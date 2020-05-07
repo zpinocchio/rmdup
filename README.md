@@ -3,7 +3,9 @@ this script is change from seqkit rmdup -by_seq, same algorithm but input R1 R2,
 for more information see [shenwei356/seqkit](https://github.com/zpinocchio/rmdup/upload/master)<br>
 
 # Usage
-
+```Bash
+my_rmdup -in1 raw.R1.fq.gz -in2 raw.R2.fq.gz -out1 rmdup.R1.fq.gz -out2 rmdup.R2.fq.gz
+```
 
 # Core algorithm
 ```go
