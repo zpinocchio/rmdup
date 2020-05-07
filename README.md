@@ -14,7 +14,7 @@ subjectR2 = xxhash.Sum64(recordR2.Seq.Seq)
 _, ok := counterR1[subjectR1]
 _,ok2 := counterR2[subjectR2]
 if ok || ok2{ // duplicated
-  counterR1[subjectR1]++
+  	counterR1[subjectR1]++
 	counterR2[subjectR2]++
 	removed++
   } else { // new one
