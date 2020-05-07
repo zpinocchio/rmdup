@@ -12,10 +12,6 @@ import (
 	"os"
 )
 
-func rmdup(){
-
-}
-
 func main(){
 	var alphabet *seq.Alphabet
 	idRegexp := "^(\\S+)\\s?"
