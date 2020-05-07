@@ -1,5 +1,6 @@
 # rmdup
 this script is change from seqkit rmdup -by_seq, same algorithm but input R1 R2,output R1 R2<br>
+remove PCR duplication in Metagenome reads<br>
 for more information see [shenwei356/seqkit](https://github.com/zpinocchio/rmdup/upload/master)<br>
 
 # Usage
